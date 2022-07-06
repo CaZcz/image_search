@@ -1,0 +1,9 @@
+.cu-card {
+  display: inline-block;
+  width:375rpx;
+  
+}
+.image {
+height: 375rpx;
+}
+

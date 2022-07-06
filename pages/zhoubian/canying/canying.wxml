@@ -1,0 +1,41 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">{{title}}</view>
+</cu-custom>
+
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-orange "></text> 周边搜索
+  </view>
+  <view class="action">
+    {{region}}
+  </view>
+</view>
+
+<view class="cu-card case {{isCard?'no-card':''}}" wx:for="{{pois}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="{{item.photos[0].url}}" mode="aspectFill"></image>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">{{item.name}}</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item" style="padding: 0px 15px;">
+        <view class="flex-sub">
+          <text class="text-grey">{{item.name}}</text>
+          <view class="text-gray text-sm flex justify-between" >
+            距离 {{ item.distance }} m
+            <view class="text-gray text-sm" style="width: 164rpx;">
+              <text class="cuIcon-attentionfill "></text> 10
+              <text class="cuIcon-appreciatefill "></text> 20
+              <text class="cuIcon-messagefill "></text> 30
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

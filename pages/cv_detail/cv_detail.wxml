@@ -19,8 +19,8 @@
 </view>
 
 
-<view class="padding-xl text-black">
-  <view class="padding-xs text-xl">
+<view class="padding-xs text-black">
+  <view class="padding-xs text-xl bg-white">
     名称：{{img_data.classifyByColor}}
     {{img_data[0].name}}
     {{img_data.landmark}}
@@ -28,13 +28,23 @@
     {{img_data.currencyCode}}
     {{img_data.red_wine.result.classifyByColor}}
   </view>
-  <view class="padding-xs">
+  <view class="padding-xs bg-white">
     {{img_data.classifyBySugar}}
     {{img_data.color}}
-    {{img_data.countryCn}}
-    {{img_data.description}}
+    
+    
     {{img_data[0].baike_info.description}}
     {{img_data.currencyDenomination}}
     {{img_data.currencyCode}}
+    
+  </view>
+  <view class="padding-xs bg-white">
+    {{img_data.countryCn}}
+    {{img_data.regionCn}}
+    {{img_data.wineryCn}}
+  </view>
+  <view class="padding-xs bg-white">
+    {{img_data.year}}
+    {{img_data.description}}
   </view>
 </view>

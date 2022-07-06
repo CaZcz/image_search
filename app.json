@@ -1,17 +1,17 @@
 {
   "pages":[
-    "pages/testing/testing",
+    
     "pages/cv/cv",
     "pages/cv_detail/cv_detail",
-    
-    "pages/testing/canying/canying",
-    
+    "pages/weather/weather",
+    "pages/zhoubian/zhoubian",
+    "pages/zhoubian/canying/canying",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "小南智能AI",
+    "navigationBarTitleText": "AI随意搜",
     "navigationBarTextStyle":"black",
     "navigationStyle": "custom"
   },
@@ -20,23 +20,31 @@
     "selectedColor": "#79B7FF",
     "backgroundColor": "",
     "list": [
-      
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "selectedIconPath": "images/weather-selected.png",
+        "iconPath": "images/weather.png"
+      },
       {
         "pagePath": "pages/cv/cv",
-        "text": "AI识图",
-        "selectedIconPath": "images/catch-selected.png",
-        "iconPath": "images/catch.png"
+        "text": "识别",
+        "selectedIconPath": "images/camera-selected.png",
+        "iconPath": "images/camera.png"
       },
 
       {
-        "pagePath": "pages/testing/testing",
+        "pagePath": "pages/zhoubian/zhoubian",
         "text": "周边",
-        "selectedIconPath": "images/catch-selected.png",
-        "iconPath": "images/catch.png"
+        "selectedIconPath": "images/location-selected.png",
+        "iconPath": "images/location.png"
       }
       
     ]
   },
+  "lazyCodeLoading": "requiredComponents",
+  
+  
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
   },

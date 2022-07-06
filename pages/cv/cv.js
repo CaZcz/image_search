@@ -14,35 +14,35 @@ Page({
       {
         "title":"红酒识别",
         "id":'hjsb',
-        "bg_img":"http://rcqjced6l.hn-bkt.clouddn.com/hjsb-bg.jpg",
+        "bg_img":"https://baidu-ai.bj.bcebos.com/image-classify/redwine.jpeg",
         "content":"识别图像中的红酒标签，返回红酒名称、国家、产区、酒庄、类型、糖分、葡萄品种、酒品描述等信息，可识别数十万中外红酒；支持自定义红酒图库，在自建库中搜索特定红酒信息",
         "title_name":"redwine"
       },
       {
         "title":"植物识别",
         "id":"zwsb",
-        "bg_img":"http://rcqjced6l.hn-bkt.clouddn.com/zwsb-bg.jpg",
+        "bg_img":"https://baidu-ai.bj.bcebos.com/image-classify/plant.jpeg",
         "content":"可识别超过2万种常见植物和近8千种花卉，接口返回植物的名称，并支持获取识别结果对应的百科信息；还可使用EasyDL定制训练平台，定制识别植物种类。适用于拍照识图、幼教科普、图像内容分析等场景",
         "title_name":"plant"
       },
       {
         "title":"动物识别",
         "id":"dwsb",
-        "bg_img":"http://rcqjced6l.hn-bkt.clouddn.com/dwsb-bg.jpg",
+        "bg_img":"https://baidu-ai.bj.bcebos.com/image-classify/animal.jpeg",
         "content":"识别近八千种动物，接口返回动物名称，并可获取识别结果对应的百科信息；还可使用EasyDL定制训练平台，定制识别分类标签。适用于拍照识图、幼教科普、图像内容分析等场景",
         "title_name":"animal"
       },
       {
         "title":"地标识别",
         "id":"dbsb",
-        "bg_img":"http://rcqjced6l.hn-bkt.clouddn.com/dbsb-bg.jpg",
+        "bg_img":"https://baidu-ai.bj.bcebos.com/image-classify/landmark.jpeg",
         "content":"支持识别12万中外著名地标、热门景点；还可使用EasyDL定制训练平台，定制地标分类标签。广泛应用于拍照识图、幼教科普、图片分类等场景",
         "title_name":"landmark"
       },
       {
         "title":"货币识别",
         "id":"hbsb",
-        "bg_img":"http://rcqjced6l.hn-bkt.clouddn.com/hbsb-bg.jpg",
+        "bg_img":"https://baidu-ai.bj.bcebos.com/image-classify/currency.jpeg",
         "content":"识别图像中的货币类型，返回货币名称、代码、面值、年份信息，可识别百余种国内外常见货币；还可使用EasyDL定制训练平台，定制识别货币种类",
         "title_name":"currency"
       }

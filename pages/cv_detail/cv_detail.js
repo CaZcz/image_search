@@ -48,17 +48,17 @@ Page({
         })
         const access_token = that.data.access_token
         wx.request({
-          url: 'https://aip.baidubce.com/api/v1/solution/direct/imagerecognition/combination?access_token='+access_token,
+          url: 'https://aip.baidubce.com/rest/2.0/image-classify/v1/' + that.data.types_name,
           data: {
-            
+            access_token: that.data.access_token,
             image: that.data.api_image,
-            scenes:["animal","plant","ingredient","dishs", "red_wine","currency","landmark"],
-            
+            top_num: 3,
+            baike_num: 3
 
           },
           method: 'POST',
           header: {
-            'content-type': 'application/json; charset=UTF-8'
+            'content-type': 'application/x-www-form-urlencoded'
           },
 
           success(res) {

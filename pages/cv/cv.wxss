@@ -2,12 +2,15 @@ page,.main{
   height: 100%;
 }
 
+/* 左侧列表圆角 */
 .categroy-left{
   float: left;
   width: 150rpx;
   height: 450rpx;
   box-sizing: border-box;
   background-color: white;
+  border-radius: 16rpx;
+  
 }
 .categroy-left .cate-list{
   height: 90rpx;
@@ -15,7 +18,7 @@ page,.main{
   text-align: center;
   border-left: 3px solid #ddd;
   font-size:30rpx;
-
+  
 }
 .categroy-left .cate-list.on{
   color: #0081ff;
@@ -46,4 +49,11 @@ page,.main{
   padding:40rpx;
   box-sizing: border-box;
   border-top: 3rpx solid white;
+}
+/* 右侧卡片圆角 */
+.cu-bar.bg-white.solid-bottom {
+  border-radius: 16rpx 16rpx 0rpx 0rpx;
+}
+.bg-img.bg-mask.padding-tb-xl {
+  border-radius: 0rpx 0rpx 16rpx 16rpx;
 }
